@@ -1,0 +1,122 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 1.3369580905749605,
+    "train_skin_loss": 1.3163324783771484,
+    "train_concern_loss": 0.025782015828369056,
+    "val_loss": 1.6004902568517947,
+    "val_skin_loss": 1.3090201265671675,
+    "val_concern_loss": 0.36433766548540075,
+    "val_skin_accuracy": 0.3608374384236453,
+    "val_concern_mae": 26.473622608184815,
+    "annotated_train_samples_seen": 10
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.2459582981957034,
+    "train_skin_loss": 1.2139814643806734,
+    "train_concern_loss": 0.03997104015190953,
+    "val_loss": 1.9571787197800243,
+    "val_skin_loss": 1.6649029789602054,
+    "val_concern_loss": 0.36534467339515686,
+    "val_skin_accuracy": 0.3460591133004926,
+    "val_concern_mae": 26.460193367004393,
+    "annotated_train_samples_seen": 18
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.173715213049089,
+    "train_skin_loss": 1.1307050441300968,
+    "train_concern_loss": 0.05376271218642551,
+    "val_loss": 1.57631636893048,
+    "val_skin_loss": 1.2968781672272027,
+    "val_concern_loss": 0.34929773912710305,
+    "val_skin_accuracy": 0.437192118226601,
+    "val_concern_mae": 25.636089515686034,
+    "annotated_train_samples_seen": 23
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.059524171282654,
+    "train_skin_loss": 1.0235384578990405,
+    "train_concern_loss": 0.044982141937053965,
+    "val_loss": 1.4365100463231404,
+    "val_skin_loss": 1.168069296023425,
+    "val_concern_loss": 0.3355509317388721,
+    "val_skin_accuracy": 0.49507389162561577,
+    "val_concern_mae": 24.756080265045167,
+    "annotated_train_samples_seen": 15
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.9389907140751735,
+    "train_skin_loss": 0.8908851159150222,
+    "train_concern_loss": 0.06013199587386299,
+    "val_loss": 1.4385445699387907,
+    "val_skin_loss": 1.1759977898761338,
+    "val_concern_loss": 0.32818346718947095,
+    "val_skin_accuracy": 0.5554187192118226,
+    "val_concern_mae": 24.332561950683594,
+    "annotated_train_samples_seen": 24
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.8061241623750969,
+    "train_skin_loss": 0.7683043493201805,
+    "train_concern_loss": 0.047274764616841394,
+    "val_loss": 1.2978164343272938,
+    "val_skin_loss": 1.056141688251028,
+    "val_concern_loss": 0.30209342025074304,
+    "val_skin_accuracy": 0.6182266009852216,
+    "val_concern_mae": 23.089557781219483,
+    "annotated_train_samples_seen": 24
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.6805719250922083,
+    "train_skin_loss": 0.6519470362610139,
+    "train_concern_loss": 0.03578111122577635,
+    "val_loss": 1.211730430231375,
+    "val_skin_loss": 0.9792911278850892,
+    "val_concern_loss": 0.29054912223535423,
+    "val_skin_accuracy": 0.6847290640394089,
+    "val_concern_mae": 22.41988332748413,
+    "annotated_train_samples_seen": 20
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.6192206525370936,
+    "train_skin_loss": 0.5872573310452252,
+    "train_concern_loss": 0.03995415136674652,
+    "val_loss": 1.1444585428518408,
+    "val_skin_loss": 0.9105678633147595,
+    "val_concern_loss": 0.29236334153250154,
+    "val_skin_accuracy": 0.6958128078817734,
+    "val_concern_mae": 22.498617820739746,
+    "annotated_train_samples_seen": 26
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.5625345144514254,
+    "train_skin_loss": 0.5455790881409951,
+    "train_concern_loss": 0.02119428226542672,
+    "val_loss": 1.0572445115037994,
+    "val_skin_loss": 0.83503924602387,
+    "val_concern_loss": 0.27775658228818106,
+    "val_skin_accuracy": 0.7339901477832512,
+    "val_concern_mae": 21.68308729171753,
+    "annotated_train_samples_seen": 13
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.49643710292979537,
+    "train_skin_loss": 0.4875168981326324,
+    "train_concern_loss": 0.011150255301204564,
+    "val_loss": 1.057887194495575,
+    "val_skin_loss": 0.8329316684428383,
+    "val_concern_loss": 0.28119440435194504,
+    "val_skin_accuracy": 0.7339901477832512,
+    "val_concern_mae": 21.880390968322754,
+    "annotated_train_samples_seen": 10
+  }
+]
