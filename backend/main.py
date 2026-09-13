@@ -188,26 +188,26 @@ def load_checkpoint():
     # Conditional GAN
     # -----------------------------
 
-    gan = ARTIFACTS / "skin_generator.pt"
+  #  gan = ARTIFACTS / "skin_generator.pt"
 
-    if gan.exists():
-        payload = torch.load(
-            gan,
-            map_location=DEVICE
-        )
+   # if gan.exists():
+    #    payload = torch.load(
+     #       gan,
+      #      map_location=DEVICE
+       # )
 
-        GENERATOR = ConditionalGenerator().to(DEVICE)
+      #  GENERATOR = ConditionalGenerator().to(DEVICE)
 
-        state = payload.get(
-            "generator_state_dict",
-            payload
-        )
+      #  state = payload.get(
+      #      "generator_state_dict",
+       #     payload
+       # )
 
-        GENERATOR.load_state_dict(state)
+      #  GENERATOR.load_state_dict(state)
 
-        GENERATOR.eval()
+      #  GENERATOR.eval()
 
-        print("✓ GAN generator loaded")
+       # print("✓ GAN generator loaded")
 
 
 # ============================================================
@@ -225,7 +225,7 @@ async def lifespan(app: FastAPI):
 # ============================================================
 
 app = FastAPI(
-    title="SkinIntel AI API",
+    title=" AI API",
     version="2.0.0",
     lifespan=lifespan,
 )
