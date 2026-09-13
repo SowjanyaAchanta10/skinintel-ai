@@ -398,6 +398,7 @@ localStorage.setItem(
             )}
 
             <button
+             type="button"
               onClick={analyze}
               disabled={!file || loading}
               style={{
