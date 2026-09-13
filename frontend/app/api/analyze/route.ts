@@ -5,7 +5,7 @@ export async function POST(request: NextRequest) {
     const formData = await request.formData();
 
     const response = await fetch(
-      "http://127.0.0.1:8000/api/analyze",
+      "https://skinintel-ai-1-452b.onrender.com/api/analyze",
       {
         method: "POST",
         body: formData,
