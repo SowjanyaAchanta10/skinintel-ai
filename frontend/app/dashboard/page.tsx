@@ -179,7 +179,7 @@ export default function Dashboard() {
        * report page can display it.
        */
       localStorage.setItem(
-        "skinintel_analysis_result",
+        "astra_analysis_result",
         JSON.stringify(data)
       );
 
@@ -192,7 +192,7 @@ export default function Dashboard() {
 
       reader.onload = () => {
         localStorage.setItem(
-          "skinintel_analysis_image",
+          "astra_analysis_image",
           String(reader.result || "")
         );
 
