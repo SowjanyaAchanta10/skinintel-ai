@@ -178,7 +178,7 @@ export default function Dashboard() {
        * Store the AI result temporarily so the
        * report page can display it.
        */
-      sessionStorage.setItem(
+      localStorage.setItem(
         "skinintel_analysis_result",
         JSON.stringify(data)
       );
@@ -191,7 +191,7 @@ export default function Dashboard() {
       const reader = new FileReader();
 
       reader.onload = () => {
-        sessionStorage.setItem(
+        localStorage.setItem(
           "skinintel_analysis_image",
           String(reader.result || "")
         );
