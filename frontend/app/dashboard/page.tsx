@@ -160,7 +160,7 @@ export default function Dashboard() {
       formData.append("file", file);
 
       const response = await fetch(
-        `${API_URL}/api/analyze`,
+        `/api/analyze`,
         {
           method: "POST",
           body: formData,
